@@ -1,0 +1,123 @@
+* {
+  font-family: serif;
+  box-sizing: border-box;
+  color: white;
+}
+
+
+a {
+  margin: 3%;
+}
+
+
+h2 {
+  font-size: 3vw;
+  margin: 0;
+}
+
+
+header {
+  background-color: rgba(246, 175, 23, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main {
+  background-color: rgba(187, 32, 21, 0.9);
+  display:grid;
+  grid-template:
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+li {
+  font-size: 1.5vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  background-color: black;
+  color: black;
+  font-size: 2vw;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#my-name {
+  color: #bfbfbf;
+  font-size: 5vw;
+  margin-right: 3vmin;
+}
+
+.icons {
+  border: 1vmin solid silver;
+  border-radius: 50%;
+}
+
+.rounded-border {
+  border-radius: 1vmin;
+}
+
+#logo {
+  max-width: 15%;
+  margin-left: 1vmin;
+}
+
+#home-navigation {
+  background-color: rgba(52, 45, 95, 0.99);
+  text-align: center;
+  font-size: 3vw;
+  align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 5fr 3fr 5fr 3fr 5fr 3fr;
+  grid-template-rows:  1fr 5fr 1fr;
+  grid-template-areas: "n00   n10         n20   projects   n40   n50         n60"
+                       "n01   js          n21   python     n41   unity       n61"
+                       "n02   front-end   n22   back-end   n42   fun-stuff   n62"
+}
+
+#js {
+  grid-area: js;
+}
+
+#py {
+  grid-area: python;
+}
+
+#uni {
+  grid-area: unity;
+}
+
+#front-end {
+  grid-area: front-end;
+}
+
+#back-end {
+  grid-area: back-end;
+}
+
+#fun-stuff {
+  grid-area: fun-stuff;
+}
+
+#home-navigation > h2 {
+  text-align: center;
+  grid-area: projects;
+}
+
+#home-navigation > a {
+  text-decoration: none;
+  padding-bottom: 1vw;
+  text-align: center;
+}
