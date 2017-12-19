@@ -11,7 +11,7 @@ a {
 
 
 h2 {
-  font-size: 3vw;
+  font-size: minmax(18px, 3vw);
   margin: 0;
 }
 
@@ -31,11 +31,11 @@ main {
 }
 
 p {
-  font-size: 1.5vw;
+  font-size: minmax(12px, 1.5vw);
 }
 
 li {
-  font-size: 1.5vw;
+  font-size: minmax(12px, 1.5vw);
 }
 
 img {
@@ -47,7 +47,7 @@ img {
 footer {
   background-color: black;
   color: black;
-  font-size: 2vw;
+  font-size: minmax(10px, 2vw);
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -76,7 +76,7 @@ footer {
 #home-navigation {
   background-color: rgba(52, 45, 95, 0.99);
   text-align: center;
-  font-size: 3vw;
+  font-size: minmax(12, 3vw);
   align-items: center;
   width: 100%;
   display: grid;
